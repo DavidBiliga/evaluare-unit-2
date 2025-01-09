@@ -1,0 +1,46 @@
+/* Stiluri generale */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Secțiuni */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+/* Titluri */
+h1, h2 {
+    color: #2c3e50;
+}
+
+/* Imagini */
+img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    opacity: 0.9;
+}
+
+.screenshots img {
+    display: inline-block;
+    margin: 10px;
+}
+
+/* Slideshow */
+.screenshots {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Fundal pentru secțiuni */
+#network-diagram {
+    background-color: #ecf0f1;
+}
